@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+body {
+  background-image:url("https://free4kwallpapers.com/uploads/originals/2015/08/25/website-background.jpg");background-size: contain;
+  color: white;
+      font-family: 'Arial';
+
+}
+input[type=text], select {
+transition: 0.5s;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=text]:focus {
+  border: 3px solid #0048f1;
+}
+input[type=button] {
+  background-color:white;
+  border: 3px solid slategrey;  
+  color: black;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: #05eeee;
+}
+input[type=button]:active {
+  background-color:#05eeee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
